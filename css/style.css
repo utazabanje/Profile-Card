@@ -1,0 +1,52 @@
+
+html { 
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.profile-box {
+      width: 300px;
+      height: 450px;
+      background: rgba(0,0,0,0.4);
+      margin: 0 auto;
+      margin-top: 10px;
+      color: white;
+      text-align: center;
+      padding: 40px;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: white;
+      border-width: thin;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch;
+}
+
+.social-icons img {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+}
+
+.codepen:hover {
+    transform: scale(1.2);
+}
+
+.bitbucket:hover {
+    transform: scale(1.2);
+}
+
+.github:hover {
+    transform: scale(1.2);
+}
+
